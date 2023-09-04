@@ -1,0 +1,17 @@
+.main-page{
+    /* background-image: url("../img/bg.jpg"); */
+    background-color: #505965;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    min-height: 75vh;
+    height: 75vh;
+}
