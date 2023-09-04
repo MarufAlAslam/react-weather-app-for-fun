@@ -59,10 +59,10 @@ const MainPage = () => {
     <div className="main-page">
       <div className="wrapper">
         <div className="card bg-[#000] p-[40px] rounded-[15px] md:w-2/3 flex justify-between items-center gap-[40px] md:flex-row flex-col">
-          <div className="md:w-1/2 h-full bg-[#4f5764] p-[40px] rounded-[15px] flex justify-center items-center">
-            <img src={imageToShow} className="h-[400px]" alt="" />
+          <div className="md:w-1/2 w-full h-full bg-[#4f5764] p-[40px] rounded-[15px] flex justify-center items-center">
+            <img src={imageToShow} className="md:h-[400px] h-[200px]" alt="" />
           </div>
-          <div className="md:w-1/2 h-full p-[40px] rounded-[15px] flex flex-col justify-center items-center">
+          <div className="md:w-1/2 w-full h-full p-[40px] md:mt-[40px] pt-0 rounded-[15px] flex flex-col justify-center items-center">
             <img src={logo} className="w-[100px] mb-8" alt="" />
 
             {currentLocation && (

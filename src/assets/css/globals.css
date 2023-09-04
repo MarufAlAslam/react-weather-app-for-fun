@@ -15,3 +15,10 @@
     min-height: 75vh;
     height: 75vh;
 }
+
+@media screen and (max-width: 767px){
+    .card{
+        padding-bottom: 0;
+        height: auto;
+    }
+}
